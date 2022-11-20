@@ -1,0 +1,27 @@
+#PROGRAMA DE CÁLCULO SALARIAL
+
+valor_hora = float(input('Quanto você ganha por hora? ")
+hora_mes = float(input('Quantas horas você trabalha por mês? ')
+
+#CALCULO SALARIAL
+
+salario = valor_hora*hora_mes
+
+#DESCONTOS
+
+inss = salario*0.08
+sindicato = salario*0.05
+IR = salario*0.11
+Descontos = inss + sindicato + IR
+salario_liquido = salario-Descontos
+
+print('')
+print('--'*20)
+
+print(f'(+) Salário Bruto = R${salario}')
+print(f'(-) IR (11%) = R${IR}')
+print(f'(-) INSS (8%) = R${inss}')
+print(f'(-) Sindicato (5%) = R${sindicato}')
+print(f'(+) Salário Líquido = R${salario_liquido}')
+
+print('--'*20)
