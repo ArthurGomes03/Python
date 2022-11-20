@@ -1,7 +1,7 @@
 #PROGRAMA DE CÁLCULO SALARIAL
 
-valor_hora = float(input('Quanto você ganha por hora? ")
-hora_mes = float(input('Quantas horas você trabalha por mês? ')
+valor_hora = float(input('Quanto você ganha por horas? '))
+hora_mes = float(input('Quantas horas você trabalha por mês? '))
 
 #CALCULO SALARIAL
 
